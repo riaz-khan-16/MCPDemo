@@ -13,15 +13,15 @@ namespace MediumWebAPI.Controllers
     public class ChatController : ControllerBase
     {
 
-        private static readonly List<string> Messages = new()
+        private static readonly List<object> Messages = new()
         {
-            "Riaz", "Galib"
+            new {User="Hi", Bot="What?"}
 
         };
 
 
         [HttpGet]
-        public IEnumerable<string>  Get()
+        public IEnumerable<object>  Get()
         {
             return Messages;
         }
@@ -57,7 +57,7 @@ namespace MediumWebAPI.Controllers
                 TransportType = TransportTypes.StdIo, // use stdio transport
                 TransportOptions = new Dictionary<string, string>  // When the client needs the MCP server, it will run this EXE
                 {
-                    ["command"] = @"C:\Users\riaz.khan\Desktop\Medium\MCPServer\bin\Debug\net10.0\MCPServer.exe"
+                    ["command"] = @"C:\Users\riaz.khan\Desktop\FullProject\MCPServer\MCPServer\bin\Debug\net10.0\MCPServer.exe"
                 }
             };
 
@@ -130,7 +130,8 @@ namespace MediumWebAPI.Controllers
 
 
 
-
+            string res = assistantMessage?.ToString() ?? "(no reply)";
+            Messages.Add(new { User = message, Bot = res });
 
 
 

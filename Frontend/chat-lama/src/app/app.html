@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>AI Chat without MCP Server</h2>
+
+  <div class="chat-window">
+
+    <div *ngFor="let msg of chatHistory">
+
+      <!-- User message -->
+      <div class="message user">
+        <strong>You:</strong> {{ msg.user }}
+      </div>
+
+      <!-- Bot message -->
+      <div class="message bot">
+        <strong>AI:</strong> {{ msg.bot }}
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="input-area">
+    <input
+      [(ngModel)]="userMessage"
+      placeholder="Type a message..."
+      (keyup.enter)="sendMessage()"
+    />
+
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>

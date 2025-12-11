@@ -17,5 +17,13 @@ export class ChatService {
   headers: { 'Content-Type': 'application/json' }
 });
 
+
+
   }
+
+
+
+  getChatHistory() {
+  return this.http.get<any[]>(`${this.apiUrl}`);
+}
 }

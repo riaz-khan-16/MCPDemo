@@ -124,3 +124,4 @@ C:\Users\riaz.khan\Desktop\FullProject\WebAPI\MediumWebAPI\obj\Debug\net8.0\refi
 C:\Users\riaz.khan\Desktop\FullProject\WebAPI\MediumWebAPI\obj\Debug\net8.0\MediumWebAPI.pdb
 C:\Users\riaz.khan\Desktop\FullProject\WebAPI\MediumWebAPI\obj\Debug\net8.0\MediumWebAPI.genruntimeconfig.cache
 C:\Users\riaz.khan\Desktop\FullProject\WebAPI\MediumWebAPI\obj\Debug\net8.0\ref\MediumWebAPI.dll
+C:\Users\riaz.khan\Desktop\FullProject\WebAPI\MediumWebAPI\obj\Debug\net8.0\MediumWebAPI.sourcelink.json
