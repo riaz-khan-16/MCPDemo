@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>           // enables CORS support in your We
     options.AddPolicy("AllowAngular",  // You are creating a CORS rule (policy) named “AllowAngular”.
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200", "http://localhost:60309")  // This tells your API to allow requests only from your Angular app running at
+            policy.WithOrigins("http://localhost:4200", "http://localhost:60309", "http://localhost:4300")  // This tells your API to allow requests only from your Angular app running at
                 .AllowAnyHeader()   //allows the Angular app to send any HTTP headers to your API.
                 .AllowAnyMethod()
                 .AllowCredentials();

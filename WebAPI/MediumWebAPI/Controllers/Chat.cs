@@ -5,6 +5,7 @@ using ModelContextProtocol;
 using ModelContextProtocol.Client;
 using ModelContextProtocol.Protocol.Transport;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
 namespace MediumWebAPI.Controllers
 {
@@ -57,7 +58,7 @@ namespace MediumWebAPI.Controllers
                 TransportType = TransportTypes.StdIo, // use stdio transport
                 TransportOptions = new Dictionary<string, string>  // When the client needs the MCP server, it will run this EXE
                 {
-                    ["command"] = @"C:\Users\riaz.khan\Desktop\FullProject\MCPServer\MCPServer\bin\Debug\net10.0\MCPServer.exe"
+                    ["command"] = @"C:\Users\riaz.khan\Desktop\MCPChatBot\MCPServer\MCPServer\bin\Debug\net10.0\MCPServer.exe"
                 }
             };
 
@@ -91,6 +92,7 @@ namespace MediumWebAPI.Controllers
             var ollamaChatClient = new OllamaChatClient(
                 new Uri("http://localhost:11434/"),  // Connects to your local Ollama server.
                 "llama3.2:3b"  // Uses model llama3.2:3b.
+                //"qwen2.5-coder:7b"
             );
 
             // Build .NET AI Chat Client
@@ -103,19 +105,50 @@ namespace MediumWebAPI.Controllers
 
 
 
-
+            bool isGeneric =
+                Regex.IsMatch(
+                    message.Trim(),
+                    @"^(hi|hello|hey|assalamu alaikum|how are you|who are you)\b",
+                    RegexOptions.IgnoreCase
+                );
 
 
             var messages = new List<ChatMessage>
             {
-                new(ChatRole.System, "You are a helpful assistant.At first give generic answer.. then use MCP tools"),
+                new(ChatRole.System, @"
+
+                      You are a helpful AI assistant.
+
+Rules:
+- For greetings, small talk, or generic questions, ALWAYS reply with normal text.
+- Do NOT call any tool for generic questions or explanations.
+- Use a tool ONLY when the question explicitly requires external, real-time, or authoritative data.
+- If no tool is required, answer directly in plain text.
+- Never expose tool calls, JSON, or internal reasoning.
+- If a tool is used, respond only with the final human-readable answer.
+
+
+
+                 "
+
+                ),
                 new(ChatRole.User, message)
             };
 
-            // Send Chat + Tools to Ollama
+           
             var response = await chatClient.GetResponseAsync(
                 messages,
-                new ChatOptions { Tools = [.. mcpTools] }); // Also sends all MCP tools);
+                new ChatOptions
+                {
+                    Tools = [..mcpTools],   // IList<AITool>
+                    Temperature = 0.2f,          // float literal
+                    ToolMode = isGeneric ? ChatToolMode.None : ChatToolMode.Auto,
+                    MaxOutputTokens = 512,
+
+
+                }
+            );
+
 
 
 

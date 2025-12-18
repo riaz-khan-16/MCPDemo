@@ -1,0 +1,15 @@
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\bin\Debug\net10.0\CallingAPI.exe
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\bin\Debug\net10.0\CallingAPI.deps.json
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\bin\Debug\net10.0\CallingAPI.runtimeconfig.json
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\bin\Debug\net10.0\CallingAPI.dll
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\bin\Debug\net10.0\CallingAPI.pdb
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.AssemblyInfoInputs.cache
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.AssemblyInfo.cs
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.csproj.CoreCompileInputs.cache
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.sourcelink.json
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.dll
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\refint\CallingAPI.dll
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.pdb
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\CallingAPI.genruntimeconfig.cache
+C:\Users\riaz.khan\Desktop\FullProject\Learning\CallingAPI\obj\Debug\net10.0\ref\CallingAPI.dll

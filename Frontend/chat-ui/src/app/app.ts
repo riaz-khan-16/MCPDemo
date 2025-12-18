@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ChatService } from './services/chat';
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,61 +15,35 @@ import { ChatService } from './services/chat';
 export class AppComponent {
 
   userMessage = '';
-  chatHistory: { user: string, bot: string }[] = [];
+  chatHistory: { user: string; bot: string }[] = [];
+  isLoading = false;
 
   constructor(private chatService: ChatService) {}
 
-  ngOnInit() {
-    this.loadHistory();
-
-    // OPTIONAL: auto refresh every 2 seconds
-    setInterval(() => this.loadHistory(), 2000);
-  }
-
-  loadHistory() {
-    this.chatService.getChatHistory().subscribe(res => {
-      this.chatHistory = res;
-    });
-  }
-
-
-
   sendMessage() {
-          if (!this.userMessage.trim()) return;
+    if (!this.userMessage.trim()) return;
 
-            // Push user message to UI
-            this.chatHistory.push({
-              user: this.userMessage,
-              bot: '...'   // temporary placeholder
-            });
+    // show user message immediately
+    this.chatHistory.push({
+      user: this.userMessage,
+      bot: 'Typing...'
+    });
 
-            // Index of the last message we just pushed
-            const index = this.chatHistory.length - 1;
+    this.isLoading = true;
 
-            // Call API
-            this.chatService.sendMessage(this.userMessage).subscribe({
-              next: (res) => {
-                // Update the bot reply in the same chat item
-                this.chatHistory[index].bot = res.reply;
+    this.chatService.sendMessage(this.userMessage)
+      .subscribe({
+        next: (res) => {
+          this.chatHistory[this.chatHistory.length - 1].bot = res.reply;
+          this.isLoading = false;
+          console.log(res.reply);
+        },
+        error: () => {
+          this.chatHistory[this.chatHistory.length - 1].bot = 'Error occurred';
+          this.isLoading = false;
+        }
+      });
 
-                // OPTIONAL: load full history from backend instead of local UI
-                this.loadHistory();
-              },
-              error: () => {
-                this.chatHistory[index].bot = 'Error: API not responding';
-              }
-            });
-
-            this.userMessage = '';
-
+    this.userMessage = '';
   }
-
-
-  
-
-
-
-
-  
-
 }

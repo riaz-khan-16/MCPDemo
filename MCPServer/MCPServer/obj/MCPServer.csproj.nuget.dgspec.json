@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\MCPServer.csproj": {}
+    "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\MCPServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\MCPServer.csproj": {
+    "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\MCPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\MCPServer.csproj",
+        "projectUniqueName": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\MCPServer.csproj",
         "projectName": "MCPServer",
-        "projectPath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\MCPServer.csproj",
+        "projectPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\MCPServer.csproj",
         "packagesPath": "C:\\Users\\riaz.khan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\obj\\",
+        "outputPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

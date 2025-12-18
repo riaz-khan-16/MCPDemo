@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OLhllu2xCk0=",
+  "dgSpecHash": "Z3Suf1Ma4GQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\MCPServer\\MCPServer\\MCPServer.csproj",
+  "projectFilePath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\MCPServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\riaz.khan\\.nuget\\packages\\microsoft.extensions.ai\\9.3.0-preview.1.25161.3\\microsoft.extensions.ai.9.3.0-preview.1.25161.3.nupkg.sha512",
     "C:\\Users\\riaz.khan\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25161.3\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",

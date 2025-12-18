@@ -1,5 +1,17 @@
 using System.ComponentModel;
 using ModelContextProtocol.Server;
+using System;
+using System;
+using System.Net.Http;
+using System.Text.Json;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.CompilerServices;
+using System.Diagnostics.CodeAnalysis;
+using Microsoft.VisualBasic;
+using System.Runtime.Serialization;
+using System.Transactions;
 
 
 namespace MCPServer.MCPTools
@@ -14,21 +26,82 @@ namespace MCPServer.MCPTools
             return $"Today is {today}.";
         }
 
-        [McpServerTool, Description("Calculate your income tax")]
+        [McpServerTool, Description("Calculate your income tax. Take the income as input and give tax amount as result")]
         public static string TaxTool(int income)
         {
             var tax = income/3;
             return $"Your Tax is  {tax}.";
         }
 
-       [McpServerTool, Description("List of emplyee in Orbit")]
-        public static List<string>  EmplyeeTool()
+        
+        [McpServerTool, Description("give name of the members of TeamSync")]
+        public static async Task<string> MemberOfTeamSync()
         {
-
-            string[]  employee={"Riaz", "Khan"};
-           
-            return employee.ToList();
+            using var client = new HttpClient();
+            var response = await client.GetStringAsync("https://localhost:7162/api/Users");
+            var users = JsonSerializer.Deserialize<List<User>>(response,
+                        new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        });
+            var result=" ";
+            foreach (var user in users)
+            {
+                result+= $"[ Name: {user.name}: Email:  {user.email} ,  Department: {user.department}],";
+            
+            }
+            return result;
         }
+        
+
+        [McpServerTool, Description("Add a new User in TeamSync ")]
+        public static async Task<string> CreateNewUserinTeamSync(string Name, string Email, string Password, string Role, string Dept)
+        {
+         await Services.RegisterAsync(Name, Email, Password, Role, Dept);
+        
+          return "Yoy have successfully registered!! ";
+
+        
+        }
+
+
+
+
+
+       [McpServerTool, Description("Give name of the Projects of TeamSync")]
+        public static async Task<string> ProjectsOfTeamSync()
+        {
+            using var client = new HttpClient();
+            var response = await client.GetStringAsync("https://localhost:7162/api/Projects");
+            var projects = JsonSerializer.Deserialize<List<Project>>(response,
+                        new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        });
+            var result=" ";
+           foreach (var project in projects)
+                {
+                    result += $"[Project Name: {project.Name}, Description: {project.Description}], Project Id: {project.Id}\n";
+                    result += "\n";
+                }
+            return result;
+        }
+        
+
+ 
+
+       [McpServerTool, Description("Add a new Project in TeamSync. if user don't give you the name, use:Name=Test Project, Description=This is a important task, created by: Riaz Khan ")]
+        public static async Task<string> CreateNewProjectinTeamSync(string Name, string Description, string CreatedBy)
+        {
+         await Services.CreateProjectAsync(Name, Description, CreatedBy);
+        
+        return "Yoy have successfully created the project: ";
+
+        
+        }
+
+
+       
 
 
       [McpServerTool, Description("Get your public IP address")]
@@ -41,34 +114,6 @@ namespace MCPServer.MCPTools
     }
 
 
-    [McpServerTool, Description("Get current temperature in Dhaka")]
-public static async Task<string> DhakaTemperatureTool()
-{
-    using var client = new HttpClient();
-    string url = "https://api.open-meteo.com/v1/forecast?latitude=23.8103&longitude=90.4125&current_weather=true";
-    
-    var result = await client.GetStringAsync(url);
-    return $"Dhaka Weather Data: {result}";
-}
-
-[McpServerTool, Description("Get geographical info about your public IP")]
-public static async Task<string> IpLocationTool()
-{
-    using var client = new HttpClient();
-    string data = await client.GetStringAsync("https://ipinfo.io/json");
-    
-    return $"IP Location Info: {data}";
-}
-
-
-   
-
-
-
-
-
-
-        
 
 
     }

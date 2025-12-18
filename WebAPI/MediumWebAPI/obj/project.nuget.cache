@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hvSHWZ10as8=",
+  "dgSpecHash": "uaiMSuPraUo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\riaz.khan\\.nuget\\packages\\microsoft.extensions.ai\\9.3.0-preview.1.25161.3\\microsoft.extensions.ai.9.3.0-preview.1.25161.3.nupkg.sha512",
     "C:\\Users\\riaz.khan\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25161.3\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",

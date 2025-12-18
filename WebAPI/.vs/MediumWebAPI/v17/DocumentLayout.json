@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\fullproject\\webapi\\mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\fullproject\\webapi\\mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\fullproject\\webapi\\mediumwebapi\\controllers\\chatwithoutmcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\controllers\\chatwithoutmcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\controllers\\chatwithoutmcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,37 +32,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ChatWithOutMcp.cs",
-              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
               "RelativeDocumentMoniker": "MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
-              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
               "RelativeToolTip": "MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T10:20:53.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
-              "RelativeDocumentMoniker": "MediumWebAPI\\Controllers\\Chat.cs",
-              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
-              "RelativeToolTip": "MediumWebAPI\\Controllers\\Chat.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:20:51.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T10:20:53.933Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
+              "RelativeDocumentMoniker": "MediumWebAPI\\Controllers\\Chat.cs",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
+              "RelativeToolTip": "MediumWebAPI\\Controllers\\Chat.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowK4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T04:20:51.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "MediumWebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Program.cs",
               "RelativeToolTip": "MediumWebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T04:20:29.601Z",
               "EditorCaption": ""

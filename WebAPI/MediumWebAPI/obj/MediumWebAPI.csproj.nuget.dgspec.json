@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj": {}
+    "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj": {
+    "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
         "projectName": "MediumWebAPI",
-        "projectPath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
+        "projectPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\MediumWebAPI.csproj",
         "packagesPath": "C:\\Users\\riaz.khan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riaz.khan\\Desktop\\FullProject\\WebAPI\\MediumWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
