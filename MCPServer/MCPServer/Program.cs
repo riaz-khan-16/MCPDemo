@@ -3,8 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = Host.CreateEmptyApplicationBuilder(settings: null);
 builder.Services
-    .AddMcpServer()
-    .WithStdioServerTransport()
-    .WithToolsFromAssembly();
+    .AddMcpServer()                       // Registers the MCP server core.
+    .WithStdioServerTransport()           // Configures MCP to communicate using STDIN / STDOUT.
+    .WithToolsFromAssembly();            // Find all my tool methods and expose them to the LLM
 
-await builder.Build().RunAsync();
+await builder.Build().RunAsync();         // Start the MCP server

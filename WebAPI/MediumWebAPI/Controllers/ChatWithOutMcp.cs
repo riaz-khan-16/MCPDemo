@@ -75,7 +75,7 @@ namespace MediumWebAPI.Controllers
 
             var messages = new List<ChatMessage>
             {
-                new(ChatRole.System, "You are a helpful assistant.At first give generic answer.. then use MCP tools"),
+                new(ChatRole.System, "You are a helpful assistant."),
                 new(ChatRole.User, message)
             };
 

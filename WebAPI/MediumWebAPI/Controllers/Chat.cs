@@ -33,10 +33,7 @@ namespace MediumWebAPI.Controllers
         {
 
 
-
-
-
-            //---------------------------------------Make a MCP CLient------------------------------------//
+            //---------------------------------------    Make a MCP Client        ------------------------------------//
 
             // You're telling the MCP server who you are.
             var clientOptions = new McpClientOptions
@@ -119,13 +116,13 @@ namespace MediumWebAPI.Controllers
 
                       You are a helpful AI assistant.
 
-Rules:
-- For greetings, small talk, or generic questions, ALWAYS reply with normal text.
-- Do NOT call any tool for generic questions or explanations.
-- Use a tool ONLY when the question explicitly requires external, real-time, or authoritative data.
-- If no tool is required, answer directly in plain text.
-- Never expose tool calls, JSON, or internal reasoning.
-- If a tool is used, respond only with the final human-readable answer.
+                        Rules:
+                        - For greetings, small talk, or generic questions, ALWAYS reply with normal text.
+                        - Do NOT call any tool for generic questions or explanations.
+                        - Use a tool ONLY when the question explicitly requires external, real-time, or authoritative data.
+                        - If no tool is required, answer directly in plain text.
+                        - Never expose tool calls, JSON, or internal reasoning.
+                        - If a tool is used, respond only with the final human-readable answer.
 
 
 
@@ -135,13 +132,12 @@ Rules:
                 new(ChatRole.User, message)
             };
 
-           
             var response = await chatClient.GetResponseAsync(
-                messages,
+                messages,    
                 new ChatOptions
                 {
-                    Tools = [..mcpTools],   // IList<AITool>
-                    Temperature = 0.2f,          // float literal
+                    Tools = [..mcpTools],   // Tools are given
+                    Temperature = 0.2f,        
                     ToolMode = isGeneric ? ChatToolMode.None : ChatToolMode.Auto,
                     MaxOutputTokens = 512,
 

@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\controllers\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\controllers\\chatwithoutmcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\controllers\\chatwithoutmcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|c:\\users\\riaz.khan\\desktop\\mcpchatbot\\webapi\\mediumwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5311C55C-7991-453D-A70E-055CBA7914E6}|MediumWebAPI\\MediumWebAPI.csproj|solutionrelative:mediumwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\Tools\\Services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +36,28 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MediumWebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MediumWebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-04T07:06:23.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\Tools\\Services.cs",
+              "RelativeDocumentMoniker": "..\\MCPServer\\MCPServer\\Tools\\Services.cs",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\MCPServer\\MCPServer\\Tools\\Services.cs",
+              "RelativeToolTip": "..\\MCPServer\\MCPServer\\Tools\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:19:04.615Z"
             },
             {
               "$type": "Document",
@@ -36,31 +67,44 @@
               "RelativeDocumentMoniker": "MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
               "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
               "RelativeToolTip": "MediumWebAPI\\Controllers\\ChatWithOutMcp.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T10:20:53.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Chat.cs",
               "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
               "RelativeDocumentMoniker": "MediumWebAPI\\Controllers\\Chat.cs",
               "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Controllers\\Chat.cs",
               "RelativeToolTip": "MediumWebAPI\\Controllers\\Chat.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowK4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:20:51.259Z"
+              "WhenOpened": "2025-12-11T04:20:51.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MediumWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\appsettings.json",
+              "RelativeToolTip": "MediumWebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-04T07:06:30.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "MediumWebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\riaz.khan\\Desktop\\MCPChatBot\\WebAPI\\MediumWebAPI\\Program.cs",
               "RelativeToolTip": "MediumWebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T04:20:29.601Z",
               "EditorCaption": ""
